@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62,5%;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+  body{
+      background-color: var(--body-bg-color);
+      font-family: 'Merriweather Sans', sans-serif;
+      font-weight: 400, 500 e 700;
+      color: var(--text-color);
+  }
+
+  .container{
+      display: flex;
+      height: 80vh;
+  }
+
+  aside{
+      width: 20vw;
+      background-color: red;
+  }
+
+  main{
+      width: 80vw;
+      background-color: green;
+  }
