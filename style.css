@@ -16,6 +16,8 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
     background-color: var(--body-bg-color);
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 400, 500 e 700;
@@ -189,8 +191,67 @@ aside {
     line-height: 15px;
 }
 
-
 main {
     margin: 2.0rem;
-    background-color: green;
+}
+
+.my-projects {}
+
+.main-card-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.main-card-projects {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-project-1,
+.card-project-2 {
+    flex: 1;
+    padding: 30px
+}
+
+.card-project-1 h3,
+.card-project-2 h3 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.card-project-1 p,
+.card-project-2 p {
+    margin-bottom: 49px;
+}
+
+.card-project-1 ul,
+.card-project-2 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.card-project-1 ul li,
+.card-project-2 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-card-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.used-tec {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
